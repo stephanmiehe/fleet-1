@@ -723,11 +723,14 @@ func cronVulnerabilities(
 	}
 
 	ticker := time.NewTicker(10 * time.Second)
+	defer ticker.Stop()
+
 	for {
 		level.Debug(logger).Log("waiting", "on ticker")
 		select {
 		case <-ticker.C:
 			level.Debug(logger).Log("waiting", "done")
+			ticker.Reset(config.Vulnerabilities.Periodicity)
 		case <-ctx.Done():
 			level.Debug(logger).Log("exit", "done with cron.")
 			return
