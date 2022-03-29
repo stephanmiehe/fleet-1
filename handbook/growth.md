@@ -83,4 +83,5 @@ These are the Slack channels the growth team maintains. If the channel has a [di
 
 **Who should have these channels unmuted?** Members of this group, everyone else is encouraged to mute them.
 
+<meta name="pageOrderInSection" value="80">
 <meta name="maintainedBy" value="timmy-k">

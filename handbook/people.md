@@ -259,4 +259,5 @@ These are the Slack channels the digital experience team maintains. If the chann
 
 **Who should have these channels unmuted?** Members of this group, everyone else is encouraged to mute them.
 
+<meta name="pageOrderInSection" value="20">
 <meta name="maintainedBy" value="eashaw">

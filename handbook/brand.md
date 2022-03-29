@@ -123,5 +123,6 @@ In Figma:
   * Avoid using SVGs or icon fonts.
 3. Click the __Export__ button.
 
+<meta name="pageOrderInSection" value="60">
 <meta name="maintainedBy" value="mike-j-thomas">
 

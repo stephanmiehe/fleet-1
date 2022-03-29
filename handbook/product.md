@@ -382,4 +382,5 @@ These are the Slack channels the product team maintains. If the channel has a [d
 
 **Who should have these channels unmuted?** Members of this group, everyone else is encouraged to mute them.
 
+<meta name="pageOrderInSection" value="40">
 <meta name="maintainedBy" value="noahtalerman">

@@ -681,4 +681,5 @@ These are the Slack channels the security team maintains. If the channel has a [
 
 **Who should have these channels unmuted?** Members of this group, everyone else is encouraged to mute them.
 
+<meta name="pageOrderInSection" value="50">
 <meta name="maintainedBy" value="GuillaumeRoss">

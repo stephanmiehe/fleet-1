@@ -108,5 +108,6 @@ These are the Slack channels the customer engineering team maintains. If the cha
 
 **Who should have these channels unmuted?** Members of this group, everyone else is encouraged to mute them.
 
+<meta name="pageOrderInSection" value="70">
 <meta name="maintainedBy" value="tgauda">
 

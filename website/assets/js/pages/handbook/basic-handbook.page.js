@@ -72,12 +72,14 @@ parasails.registerPage('basic-handbook', {
         if(_.startsWith(page.url, '/handbook') && page.title !== 'Readme.md'){
           let handbookPage = {
             pageTitle: page.title,
-            pageLinks: page.sectionTitlesForHandbookIndex
+            pageLinks: page.sectionTitlesForHandbookIndex,
+            pageRank: page.pageOrderInSectionPath,
           };
           handbookPages.push(handbookPage);
         }
       }
-      this.handbookIndexLinks = handbookPages;
+      // Sorting the array of Handbook heading links by the page's pageOrderInSectionPath value.
+      this.handbookIndexLinks = _.sortBy(handbookPages, 'pageRank');
     }
   },
 

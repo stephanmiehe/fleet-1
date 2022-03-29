@@ -326,9 +326,9 @@ module.exports = {
               }
 
 
-              // If the page has a pageOrderInSection meta tag, we'll use that to sort pages in their bottom level sections.
+              // If this handbook or documentation page has a pageOrderInSection meta tag, we'll use that to sort pages in their bottom level sections.
               let pageOrderInSection;
-              if(sectionRepoPath === 'docs/') {
+              if(sectionRepoPath === 'docs/' || sectionRepoPath === 'handbook/') {
                 // Set a flag to determine if the page is a readme (e.g. /docs/Using-Fleet/configuration-files/readme.md) or a FAQ page.
                 // READMEs in subfolders and FAQ pages don't have pageOrderInSection values, they are always sorted at the end of sections.
                 let isPageAReadmeOrFAQ = (_.last(pageUnextensionedLowercasedRelPath.split(/\//)) === 'faq' || _.last(pageUnextensionedLowercasedRelPath.split(/\//)) === 'readme');

@@ -211,5 +211,5 @@ When Kolide's attention shifted away from Fleet and towards their separate, user
 Zach partnered with our CEO, Mike McNeil, to found a new, independent company: Fleet Device Management Inc.  In November 2020, we [announced](https://medium.com/fleetdm/a-new-fleet-d4096c7de978) the transition and kicked off the logistics of moving the GitHub repository.
 
 
-
+<meta name="pageOrderInSection" value="10">
 <meta name="maintainedBy" value="mikermcneil">
